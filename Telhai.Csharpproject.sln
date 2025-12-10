@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.Csharpproject", "Telhai.Csharpproject\Telhai.Csharpproject.csproj", "{B2F9EF7E-CC07-4C00-A333-FCC5EF485FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.Csharpproject.01Practice", "Telhai.Csharpproject.01Practice\Telhai.Csharpproject.01Practice.csproj", "{8203CE31-FAB4-48B6-8595-95C614FA901F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.Csharpproject.02DataType", "Telhai.Csharpproject.02Practice\Telhai.Csharpproject.02DataType.csproj", "{C5D08940-3206-40ED-969A-2EEA1A0A4966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelHailCsharpproject03_OOP", "TelHailCsharpproject03_OOP\TelHailCsharpproject03_OOP.csproj", "{9E4AE532-3F19-4886-85F4-30C23920A97C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelHai.CS.CsharpCourse.Services", "TelHai.CS.CsharpCourse.Services\TelHai.CS.CsharpCourse.Services.csproj", "{4FF77B25-83A4-4E64-BBB7-95573DFAB960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelHai.CS.Csharpprojectcourse.04_WPF_APPLICATION", "TelHai.CS.Csharpprojectcourse.04_WPF_APPLICATION\TelHai.CS.Csharpprojectcourse.04_WPF_APPLICATION.csproj", "{36A8EE6B-6A36-448D-B226-8E3EF0E4C53B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelHai.DotNet.Classes.HW01.AliDrawshy", "TelHai.DotNet.Classes.HW01.AliDrawshy\TelHai.DotNet.Classes.HW01.AliDrawshy.csproj", "{A90C6AB5-673A-421C-8D7D-8ED572C597E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.Csharproject._04.Polymorphism", "Telhai.Csharproject._04.Polymorphism\Telhai.Csharproject._04.Polymorphism.csproj", "{AB8CC81A-E562-4D2B-A22F-002EC0C0CDCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.CS.CsharpCourse.05_WpfLinq", "..\..\Telhai.CS.CsharpCourse.05_WpfLinq\Telhai.CS.CsharpCourse.05_WpfLinq.csproj", "{AB9AB536-27AD-C950-826E-C8CB6B521293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telhai.DotNet.PlayerProject", "Telhai.DonNet.PlayerProject\Telhai.DotNet.PlayerProject.csproj", "{C4F13F96-31B9-4E5D-9F74-30C8A2FC5A5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2F9EF7E-CC07-4C00-A333-FCC5EF485FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F9EF7E-CC07-4C00-A333-FCC5EF485FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F9EF7E-CC07-4C00-A333-FCC5EF485FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F9EF7E-CC07-4C00-A333-FCC5EF485FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8203CE31-FAB4-48B6-8595-95C614FA901F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8203CE31-FAB4-48B6-8595-95C614FA901F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8203CE31-FAB4-48B6-8595-95C614FA901F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8203CE31-FAB4-48B6-8595-95C614FA901F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D08940-3206-40ED-969A-2EEA1A0A4966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D08940-3206-40ED-969A-2EEA1A0A4966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D08940-3206-40ED-969A-2EEA1A0A4966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D08940-3206-40ED-969A-2EEA1A0A4966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4AE532-3F19-4886-85F4-30C23920A97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4AE532-3F19-4886-85F4-30C23920A97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4AE532-3F19-4886-85F4-30C23920A97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4AE532-3F19-4886-85F4-30C23920A97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF77B25-83A4-4E64-BBB7-95573DFAB960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF77B25-83A4-4E64-BBB7-95573DFAB960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF77B25-83A4-4E64-BBB7-95573DFAB960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF77B25-83A4-4E64-BBB7-95573DFAB960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A8EE6B-6A36-448D-B226-8E3EF0E4C53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A8EE6B-6A36-448D-B226-8E3EF0E4C53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A8EE6B-6A36-448D-B226-8E3EF0E4C53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A8EE6B-6A36-448D-B226-8E3EF0E4C53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90C6AB5-673A-421C-8D7D-8ED572C597E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90C6AB5-673A-421C-8D7D-8ED572C597E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90C6AB5-673A-421C-8D7D-8ED572C597E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90C6AB5-673A-421C-8D7D-8ED572C597E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8CC81A-E562-4D2B-A22F-002EC0C0CDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8CC81A-E562-4D2B-A22F-002EC0C0CDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8CC81A-E562-4D2B-A22F-002EC0C0CDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8CC81A-E562-4D2B-A22F-002EC0C0CDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9AB536-27AD-C950-826E-C8CB6B521293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9AB536-27AD-C950-826E-C8CB6B521293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9AB536-27AD-C950-826E-C8CB6B521293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9AB536-27AD-C950-826E-C8CB6B521293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F13F96-31B9-4E5D-9F74-30C8A2FC5A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F13F96-31B9-4E5D-9F74-30C8A2FC5A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F13F96-31B9-4E5D-9F74-30C8A2FC5A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F13F96-31B9-4E5D-9F74-30C8A2FC5A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5801BE0-42D1-461F-B973-518A1E52B9EC}
+	EndGlobalSection
+EndGlobal
