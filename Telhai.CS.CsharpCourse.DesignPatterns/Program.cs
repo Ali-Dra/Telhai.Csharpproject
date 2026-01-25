@@ -30,7 +30,7 @@ namespace Telhai.CS.CsharpCourse.DesignPatterns
             //Console.Write("Client: I don't need to check the components classes even when managing the tree:\n");
             //client.ClientCode2(tree, leaf);
 
-
+            
             CompositeElement root = new CompositeElement("Picture");
             root.Add(new PrimitiveElement("Red Line"));
             root.Add(new PrimitiveElement("Blue Circle"));

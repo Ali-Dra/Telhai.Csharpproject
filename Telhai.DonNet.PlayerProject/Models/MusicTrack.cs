@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Telhai.DotNet.PlayerProject
+namespace Telhai.DotNet.PlayerProject.Models
 {
     public class MusicTrack
     {

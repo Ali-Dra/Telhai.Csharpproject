@@ -20,6 +20,7 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
+using Telhai.DotNet.PlayerProject.Models;
 
 
 namespace Telhai.DotNet.PlayerProject
@@ -65,6 +66,10 @@ namespace Telhai.DotNet.PlayerProject
         // --- EMPTY PLACEHOLDERS TO MAKE IT BUILD ---
         private void BtnPlay_Click(object sender, RoutedEventArgs e)
         {
+            //if(sender is Button btn )
+            //{
+            //    btn.Background= Brushes.LightGreen;
+            //}
             mediaPlayer.Play();
             timer.Start();
             txtStatus.Text = "Playing";
@@ -175,7 +180,33 @@ namespace Telhai.DotNet.PlayerProject
                 library = JsonSerializer.Deserialize<List<MusicTrack>>(json) ?? new List<MusicTrack>();
                 UpdateLibraryUI();
             }
+
         }
+          private void BtnSettings_Click(object sender, RoutedEventArgs e)
+        {
+            Setting settingsWin = new Setting();
+            
+            // Listen for the results
+            settingsWin.OnScanCompleted += SettingsWin_OnScanCompleted;
+            
+            settingsWin.ShowDialog();
+        }
+
+        private void SettingsWin_OnScanCompleted(List<MusicTrack> newTracks)
+        {
+            foreach (var track in newTracks)
+            {
+                // Prevent duplicates based on FilePath
+                if (!library.Any(x => x.FilePath == track.FilePath))
+                {
+                    library.Add(track);
+                }
+            }
+
+            UpdateLibraryUI();
+            SaveLibrary();
+        }
+
 
 
         //private void MusicPlayer_MouseDoubleClick(object sender, MouseButtonEventArgs e)
